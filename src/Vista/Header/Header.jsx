@@ -56,7 +56,7 @@ function Encabezado() {
       <header>
         <div className="Logo">
           <Link to="/">
-            <img src="/src/assets/LogoSinFondo.png" alt="Logo BioExpert" />
+            <img src="assets/LogoSinFondo.png" alt="Logo BioExpert" />
           </Link>
           <h1>BioExpert</h1>
         </div>
@@ -70,7 +70,7 @@ function Encabezado() {
                 style={{ cursor: "pointer", display: "flex", alignItems: "center" }}
               >
                 <img
-                  src={userData.profileImage || "/src/assets/profile-avatar.png"}
+                  src={userData.profileImage || "assets/profile-avatar.png"}
                   alt="Foto de perfil"
                   className="profile-image"
                   style={{

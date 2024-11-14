@@ -1,0 +1,194 @@
+/* PERFIL */
+
+.perfil-container {
+  background: linear-gradient(135deg, #4F70A3 0%, #8A9CD4 100%);
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  font-family: 'Inter', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.perfil-container h1 {
+  font-size: 32px;
+  font-family: "Changa One", sans-serif;
+  font-weight: 500;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.perfil-container h1::before,
+.perfil-container h1::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 15%;
+  height: 2px;
+  background-color: #fff;
+}
+
+.perfil-container h1::before {
+  left: 0;
+}
+
+.perfil-container h1::after {
+  right: 0;
+}
+
+.perfil-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+.perfil-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.perfil-avatar {
+  margin-bottom: 20px;
+}
+
+.perfil-avatar img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: #A2BDF2;
+  border: 4px solid white;
+}
+
+.perfil-detalles {
+  text-align: left;
+  width: 100%;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #f5f5f5;
+}
+
+.perfil-item {
+  margin-bottom: 12px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.perfil-item strong {
+  font-weight: bold;
+  color: #e0e0e0;
+  margin-right: 8px;
+}
+
+.perfil-btn {
+  background-color: #6B8ECF;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-family: "Changa One", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.perfil-btn:hover {
+  background-color: #506EA9;
+}
+
+/* Estilos en modo editable */
+
+.perfil-item input[type="text"],
+.perfil-item input[type="email"],
+.perfil-item input[type="date"],
+.perfil-item select {
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  background-color: #f1f1f1;
+  color: #333;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  margin-left: 10px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.perfil-item input[type="text"]:focus,
+.perfil-item input[type="email"]:focus,
+.perfil-item input[type="date"]:focus,
+.perfil-item select:focus {
+  border-color: #6B8ECF;
+  background-color: #ffffff;
+}
+
+/* Input para imagen */
+.perfil-avatar input[type="file"] {
+  display: block;
+  margin-top: 10px;
+  background-color: #6B8ECF;
+  color: white;
+  font-size: 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 5px 15px;
+}
+
+/* Cambio de Contraseña */
+.cambio-contraseña {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.cambio-contraseña h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  font-size: 16px;
+  color: #e0e0e0;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #333;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Ajuste para los datos */
+.perfil-detalles .perfil-item span {
+  color: #ffffff;
+}
+
+/* Fecha de Nacimiento Formato Amigable */
+.perfil-item.fecha-nacimiento {
+  display: flex;
+  align-items: center;
+}
+
+.fecha-nacimiento-icon {
+  margin-right: 8px;
+  color: #ffffff;
+}

@@ -1,0 +1,122 @@
+/* Contenedor principal */
+.performance-container {
+    margin: 0 auto;
+    background: linear-gradient(135deg, #4F70A3 0%, #8A9CD4 100%);
+    padding: 20px;
+    max-width: 1214px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Título principal */
+.performance-container h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-family: "Changa One", sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+/* Contenedor de módulos */
+.performance-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Cartas de módulos */
+.performance-modulo-card {
+    background-color: #8A9CD4; /* Cambiado a azul consistente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    width: 280px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.performance-modulo-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Encabezado de módulos */
+.performance-modulo-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.performance-modulo-icon {
+    font-size: 30px;
+    margin-right: 10px;
+    color: #ffffff; /* Color del icono blanco */
+}
+
+.performance-modulo-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+/* Detalles de módulos */
+.performance-modulo-details {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.performance-modulo-details th,
+.performance-modulo-details td {
+    padding: 8px;
+    color: white;
+}
+
+.performance-modulo-details th {
+    text-align: left;
+    font-weight: bold;
+}
+
+.performance-modulo-details td {
+    text-align: right;
+}
+
+/* Mensaje de prueba no realizada */
+.not-presented-message {
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Loader */
+.performance-loading {
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+

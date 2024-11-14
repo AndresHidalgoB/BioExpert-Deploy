@@ -1,0 +1,154 @@
+/* Encabezado */
+
+header{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 2%;
+    position: sticky;
+    top: 0;
+    z-index: 105;
+    text-decoration: none;
+    border: 3px solid #8FBCFF;
+    border-radius: 20px;
+  }
+  
+  .Logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: "Changa One", sans-serif;
+  }
+  
+  .Logo img{
+    width: 80px;
+    margin-right: 15px;
+    display: block;
+  }
+  
+  .Botones{
+  display: flex;
+  align-items: center;
+  }
+  .Botones button{
+    
+    padding: 12px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 16px;
+  
+  }
+  .login{
+  font-family: "Inter", sans-serif;
+  background-color: #5F7090;
+  border: 1px solid #5F7090;
+  color: #FFFFFF;
+  
+  
+  }
+  .suscripcion{
+    font-family: "Inter", sans-serif;
+    background-color: transparent;
+    border: 2px solid #5F7090;
+  }
+  
+  /* Nav */
+  .BotonOption {
+    margin: 10px;
+  }
+  
+  .lbl-switsch {
+    display: inline-block;
+    width: 55px;
+    height: 30px;
+    background: linear-gradient(to right, #4F70A3 0%, #8FBCFF 100%);
+    border-radius: 100px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .lbl-switsch::after {
+    position: absolute;
+    content: '';
+    width: 22px;
+    height: 22px;
+    background: #fff;
+    border-radius: 100px;
+    top: 4px;
+    left: 5px;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .lbl-switsch i {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    font-size: 16px;
+    color: black;
+    transition: 0.3s;
+    z-index: 3;
+  }
+  
+  #btn-switch {
+    display: none;
+  }
+  
+  #btn-switch:checked~.lbl-switsch {
+    background: linear-gradient(to right, #8FBCFF 0%, #4F70A3 100%);
+  }
+  
+  #btn-switch:checked~.lbl-switsch::after {
+    left: 28px;
+  }
+  
+  #btn-switch:checked~.lbl-switsch i {
+    left: 31px;
+  }
+
+  .logout {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout:hover {
+    background-color: #c9302c;
+  }
+  /* Estilo para la información del usuario */
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Espaciado entre la imagen, el nombre y el botón */
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.user-profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-profile span {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: #5f7090;
+}

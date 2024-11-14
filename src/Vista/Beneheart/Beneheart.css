@@ -1,0 +1,84 @@
+/* Estilos para el contenedor del desfibrilador */
+.desfibrilador-container {
+    display: flex;
+    align-items: center;
+    background-color: #F8FBFF;
+    border: 2px solid #D1E3F5;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .imagen-desfibrilador img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+  }
+  
+  .texto-desfibrilador {
+    padding-left: 20px;
+  }
+  
+  /* Título de la sección */
+  .modulos-titulo {
+    text-align: center;
+    background-color: #4F70A3;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  
+  /* Estilo de las tarjetas con efecto de giro */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Cuatro columnas */
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card-container {
+    perspective: 1000px; /* Para el efecto de 3D */
+  }
+  
+  .card {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s; /* Transición para el giro */
+  }
+  
+  .card-container:hover .card {
+    transform: rotateY(180deg); /* Gira la tarjeta al pasar el cursor */
+  }
+  
+  /* Estilo para la parte delantera y trasera de la tarjeta */
+  .front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Oculta la parte trasera cuando está girada */
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #8FBCFF;
+  }
+  
+  /* Estilos específicos para la parte delantera */
+  .front {
+    background-color: #F8FBFF;
+    color: #2E517A;
+  }
+  
+  /* Estilos específicos para la parte trasera */
+  .back {
+    background-color: #8FBCFF;
+    color: white;
+    transform: rotateY(180deg); /* Parte trasera está girada inicialmente */
+  }
+  

@@ -1,0 +1,171 @@
+/* Terminos*/
+
+.experiencia-texto{
+    background-color: #4F70A3;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .experiencia-imagen{
+    background-color: transparent;
+    border: 2px solid #8FBCFF;
+    border-radius: 10px;
+    padding: 20px;
+
+  }
+  
+  .experiencia-rv {
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Dos columnas: una para el texto, otra para la imagen */
+    gap: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .experiencia-texto p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: white;
+  }
+  
+  .experiencia-imagen img {
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+  }
+  
+  .realidad-virtual {
+    padding: 20px;
+    background-color: transparent;
+    border: 2px solid #8FBCFF;
+    border-radius: 10px;
+    text-align: left;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-top: 5px; /* Añade un espacio entre la sección de VR y la imagen/texto */
+  }
+  
+  .realidad-virtual h2 {
+    font-size: 24px;
+    color: #2E517A;
+    margin-bottom: 10px;
+  }
+  
+  .realidad-virtual p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  
+  .ver-mas {
+    background-color: transparent;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .ver-mas span {
+    background-color: #4F70A3;
+    color: white ;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .icono-circulo {
+    width: 30px;
+    height: 30px;
+    background-color: #4F70A3;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .icono-circulo i {
+    color: white;
+    font-size: 16px;
+  }
+  
+  
+  .ver-mas:hover .icono-circulo {
+    background-color: #5E7583; 
+  }
+  .ver-mas:hover span {
+    background-color: #5E7583; 
+  }
+  
+  .ver-mas:hover {
+    background-color: transparent;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px; 
+  }
+  
+  .modulos {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+  }
+  
+  .modulos-titulo {
+    text-align: center;
+    background: linear-gradient(90deg, #4F70A3 0%, #8FBCFF 100%);
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  .modulos-titulo h1{
+    
+    color: white;
+    ;
+  }
+  
+  
+.terminos{
+padding: 15px;
+}
+/* Estilo del texto */
+.terminos p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: black;
+}
+
+/* Listas */
+.terminos ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+  list-style-type: disc; /* Viñetas en forma de punto */
+}
+
+.terminos ul li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.terminos ul li strong {
+  font-weight: bold;
+  /* Color del título en las viñetas */
+}
+
+/* Subtítulos */
+.terminos h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}

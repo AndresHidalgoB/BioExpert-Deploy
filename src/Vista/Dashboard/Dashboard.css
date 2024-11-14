@@ -1,0 +1,76 @@
+.dashboard-container {
+    margin: 0 auto;
+    background: linear-gradient(135deg, #4F70A3 0%, #8A9CD4 100%);
+    padding: 30px;
+    max-width: 1200px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.dashboard-container h1 {
+    font-size: 42px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.dashboard-loading,
+.dashboard-error {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+}
+
+.dashboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.dashboard-table th,
+.dashboard-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.dashboard-table th {
+    background-color: #8A9CD4;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.dashboard-table tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dashboard-table tr:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.dashboard-table td {
+    color: white;
+}
+
+/* Nombre con foto */
+.dashboard-student-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.dashboard-student-photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}

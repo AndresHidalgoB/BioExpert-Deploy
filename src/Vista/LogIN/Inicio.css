@@ -1,0 +1,183 @@
+
+/* Contenedor principal */
+.Login {
+    margin: 0 auto;
+    background: linear-gradient(135deg, #4F70A3 0%, #8A9CD4 100%);
+    padding: 20px;
+    max-width: 1214px; /* Ajustar el tamaño para hacerlo más compacto */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Inter', sans-serif;
+    color: white;
+  }
+  
+  .Login h1 {
+    display: flex;  /* Añadimos flex al contenedor del título */
+    align-items: center;
+    justify-content: center; /* Para que el texto se centre */
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: "Changa One", sans-serif;
+    font-weight: 500;
+  }
+  
+  .Login h1::before,
+  .Login h1::after {
+    content: '';
+    flex: 1;
+    border-bottom: 2px solid #fff;  /* Dibuja las líneas */
+    margin: 0 10px; /* Espacio alrededor del texto */
+  }
+  /* Contenedor para centrar los inputs */
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  /* Inputs de texto */
+  .Login input[type="email"],
+  .Login input[type="password"] {
+    width: 80%; /* Ajustar al 100% del contenedor */
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px; /* Ajustar el redondeado */
+    border: none;
+    background-color: #FFF;
+    color: #4F70A3;
+    font-size: 16px;
+  }
+  
+  .Login label {
+    width: 80%;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: normal;
+    margin-bottom: 5px;
+  }
+  
+  /* Placeholder color */
+  .Login input::placeholder {
+    color: #A8A8A8;
+  }
+  
+  /* Estilo para links */
+  .Login a {
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #FFF;
+    font-size: 14px;
+    text-align: left;
+    text-decoration: none;
+  }
+  
+  .Login a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilo del checkbox */
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: 10%;
+    width: 80%;
+  }
+  
+  .Login input[type="checkbox"] {
+    margin-right: 10px;
+    accent-color: #4F70A3;
+  }
+  
+  
+  /* Botones */
+  .buttons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .Login button {
+    width: 80%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background-color: #A2BDF2;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: "Changa One", sans-serif;
+  }
+  
+  .Login button:hover {
+    background-color: #3E5B8A;
+  }
+  
+  /* Separador "o" con líneas */
+  .buttons-container h1 {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    width: 80%;
+    position: relative;
+  }
+  
+  .buttons-container h1::before,
+  .buttons-container h1::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid white;
+    margin: 0 10px;
+  }
+  
+  /* Botón de Google */
+  .Login .buttons-container button:last-of-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A2BDF2;
+    color: white;
+    font-family: "Changa One", sans-serif;
+  }
+  
+  .Login .buttons-container button:last-of-type img {
+    width: 24px;
+    margin-right: 10px;
+  }
+  
+  .Login .buttons-container button:last-of-type:hover {
+    background-color: #3E5B8A;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

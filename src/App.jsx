@@ -27,6 +27,7 @@ function App() {
         <Route path="/registro" element={<Formulario />} />
         <Route path="/login" element={<Login />} />
         <Route path="/informacion" element={<Terminos />} />
+        <Route path="/Beneheart" element={<BeneHeart />} />
 
         {/* Rutas protegidas */}
         <Route

@@ -113,7 +113,7 @@ function Modulos() {
           <div className="modulo-texto">
             <h3>DEA</h3>
             <p>
-              En el modo DEA (Desfibrilador externo automático), el equipo analiza automáticamente el ritmo del ECG del paciente e indica si se detecta o no un ritmo susceptible de descarga. Las indicaciones de voz brindan instrucciones fáciles de seguir e información del paciente para guiarlo a través del proceso de desfibrilación. También se presentan mensajes y botones parpadeantes para reforzar las indicaciones de voz.
+              En el modo DEA (Desfibrilador externo automático), el equipo analiza automáticamente el ritmo del ECG del paciente e indica si se detecta o no un ritmo susceptible de descarga. Las indicaciones brindan instrucciones fáciles de seguir e información del paciente para guiarlo a través del proceso de desfibrilación. También se presentan mensajes y botones parpadeantes para reforzar las indicaciones de voz.
             </p>
             <button className="ver-masA" onClick={() => handleExperienceCodeClick(3)}>
               <span>Empezar experiencia RV</span>

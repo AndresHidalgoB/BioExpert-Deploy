@@ -63,7 +63,7 @@ function Dashboard() {
 
     return (
         <div className="dashboard-container">
-            <h1>Dashboard de Estudiantes</h1>
+            <h1 className="dashboard-title">Dashboard de Estudiantes</h1>
             <table className="dashboard-table">
                 <thead>
                     <tr>
@@ -90,29 +90,37 @@ function Dashboard() {
                             </td>
                             <td>{student.email}</td>
                             {["desfibrilacionManual", "monitorizacion", "dea", "marcapasos"].map(
-                                (module) => (
-                                    <td key={module}>
-                                        {student.performance && student.performance[module] ? (
-                                            <>
-                                                <div>
-                                                    Calificación:{" "}
-                                                    {student.performance[module].score || "N/A"}
-                                                </div>
-                                                <div>
-                                                    Tiempo:{" "}
-                                                    {student.performance[module].completionTime
-                                                        ? `${Math.floor(
-                                                              student.performance[module]
-                                                                  .completionTime / 60
-                                                          )} min`
-                                                        : "N/A"}
-                                                </div>
-                                            </>
-                                        ) : (
-                                            "Sin datos"
-                                        )}
-                                    </td>
-                                )
+                                (module) => {
+                                    const moduleData =
+                                        student.performance && student.performance[module];
+                                    const noData =
+                                        !moduleData ||
+                                        (!moduleData.score && !moduleData.completionTime);
+
+                                    return (
+                                        <td key={module}>
+                                            {noData ? (
+                                                "No presentado aún"
+                                            ) : (
+                                                <>
+                                                    <div>
+                                                        Calificación:{" "}
+                                                        {moduleData.score || "Sin datos"}
+                                                    </div>
+                                                    <div>
+                                                        Tiempo:{" "}
+                                                        {moduleData.completionTime
+                                                            ? `${Math.floor(
+                                                                  moduleData.completionTime /
+                                                                      60
+                                                              )} min`
+                                                            : "Sin datos"}
+                                                    </div>
+                                                </>
+                                            )}
+                                        </td>
+                                    );
+                                }
                             )}
                         </tr>
                     ))}

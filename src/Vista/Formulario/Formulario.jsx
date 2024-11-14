@@ -160,19 +160,12 @@ function Formulario() {
 
                     <div className="buttons-container">
                         <button type="submit">Completar Registro</button>
-                        <h1>o</h1>
-                        <button type="button">
-                            <img src="/src/assets/Google.png" alt="Google" />
-                            Regístrate con tu cuenta de Google
-                        </button>
                     </div>
                 </div>
             </form>
         </div>
     );
 }
-
-export default Formulario;
 
 /* Función para previsualizar la imagen */
 function previewImage(event) {
@@ -183,3 +176,5 @@ function previewImage(event) {
     }
     reader.readAsDataURL(event.target.files[0]);
 }
+
+export default Formulario;

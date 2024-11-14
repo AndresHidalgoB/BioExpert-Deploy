@@ -1,8 +1,18 @@
 import "./Terminos.css";
 import { useNavigate } from "react-router-dom"; // Importar useNavigate
+import Cookies from "js-cookie"; // Importar Cookies
 
 function Terminos() {
   const navigate = useNavigate(); // Inicializar useNavigate
+
+  const handleButtonClick = () => {
+    const userCode = localStorage.getItem("userCode") || Cookies.get("userCode");
+    if (userCode) {
+      navigate("/modulos"); // Redirigir a /modulos si el usuario está logeado
+    } else {
+      navigate("/login"); // Redirigir a /login si no está logeado
+    }
+  };
 
   return (
     <>
@@ -37,7 +47,7 @@ function Terminos() {
         </p>
         <button
           className="ver-mas"
-          onClick={() => navigate("/modulos")} // Redirigir a /modulos
+          onClick={handleButtonClick} // Usar la función para redireccionar según el estado de login
         >
           <span>Empezar experiencia RV</span>
           <div className="icono-circulo">

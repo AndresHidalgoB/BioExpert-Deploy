@@ -129,7 +129,7 @@ function BeneHeart() {
       <div className="modulos-grid">
         <div className="modulo">
           <h2>Desfibrilación Manual</h2>
-          <img src="/src/assets/BENEHEART02.jpg" alt="Desfibrilación Manual" />
+          <img src="/public/BENEHEART02.jpg" alt="Desfibrilación Manual" />
           <button className="ver-masA">
             <span>Ver más</span>
             <div className="icono-circuloA">

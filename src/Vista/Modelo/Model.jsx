@@ -28,7 +28,7 @@ function Monitor3D() {
 
     // Cargar el modelo glTF
     const loader = new GLTFLoader();
-    loader.load('./src/assets/Beneheart_D6.glb', function (gltf) {
+    loader.load('assets/Beneheart_D6.glb', function (gltf) {
       const model = gltf.scene;
       scene.add(model);
       model.position.set(0, 0, 0);  // Ajustar la posición según sea necesario

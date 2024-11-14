@@ -8,7 +8,7 @@ function BeneHeart() {
             <div className="caracteristicas-container">
                 <div className="desfibrilador-container">
                     <div className="imagen-desfibrilador">
-                        <img src="/src/assets/desfibrilador.jpg" alt="Desfibrilador BeneHeart D6" />
+                        <img src="assets/desfibrilador.jpg" alt="Desfibrilador BeneHeart D6" />
                     </div>
                     <div className="texto-desfibrilador">
                         <h2>Desfibrilador BeneHeart D6</h2>
@@ -129,7 +129,7 @@ function BeneHeart() {
       <div className="modulos-grid">
         <div className="modulo">
           <h2>Desfibrilación Manual</h2>
-          <img src="/src/assets/BENEHEART02.jpg" alt="Desfibrilación Manual" />
+          <img src="assets/BENEHEART02.jpg" alt="Desfibrilación Manual" />
           <button className="ver-masA">
             <span>Ver más</span>
             <div className="icono-circuloA">
@@ -140,7 +140,7 @@ function BeneHeart() {
 
         <div className="modulo">
           <h2>Monitorización</h2>
-          <img src="/src/assets/BENEHEART03.png" alt="Monitorización" />
+          <img src="assets/BENEHEART03.png" alt="Monitorización" />
           <button className="ver-masA">
             <span>Ver más</span>
             <div className="icono-circuloA">
@@ -151,7 +151,7 @@ function BeneHeart() {
 
         <div className="modulo">
           <h2>DEA</h2>
-          <img src="/src/assets/BENEHEART04.jpg" alt="DEA" />
+          <img src="assets/BENEHEART04.jpg" alt="DEA" />
           <button className="ver-masA">
             <span>Ver más</span>
             <div className="icono-circuloA">
@@ -162,7 +162,7 @@ function BeneHeart() {
 
         <div className="modulo">
           <h2>Marcapasos</h2>
-          <img src="/src/assets/BENEHEART01.jpg" alt="Marcapasos" />
+          <img src="assets/BENEHEART01.jpg" alt="Marcapasos" />
           <button className="ver-masA">
             <span>Ver más</span>
             <div className="icono-circuloA">

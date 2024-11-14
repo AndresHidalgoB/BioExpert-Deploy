@@ -21,7 +21,7 @@ function Terminos() {
           </p>
         </div>
         <div className="experiencia-imagen">
-          <img src="/src/assets/IA.webp" alt="Experiencia VR" />
+          <img src="assets/IA.webp" alt="Experiencia VR" />
         </div>
       </div>
 

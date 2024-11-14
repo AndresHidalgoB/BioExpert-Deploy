@@ -37,7 +37,7 @@ function Hero() {
       {/* Tarjetas BioExpert e Ingeniero Biomedico UAO */}
       <div className="bioexpert-container">
         <div className="bioexpert-info">
-          <img src="/src/assets/LogoSinFondo.png" alt="Icono Monitor" />
+          <img src="assets/LogoSinFondo.png" alt="Icono Monitor" />
           <h2>BioExpert</h2>
           <p>Es un sistema interactivo que contempla módulos que permiten al usuario explorar y aprender...</p>
           <button className="ver-masA" onClick={handleinfoClick}>
@@ -60,7 +60,7 @@ function Hero() {
       <div className="card">
         <div className="card-header">
           <h3>Ingeniero Biomedico UAO</h3>
-          <img src="./src/assets/ingenieria-biomedica.jpg" alt="Ingeniero Biomedico UAO" />
+          <img src="assets/ingenieria-biomedica.jpg" alt="Ingeniero Biomedico UAO" />
         </div>
         <div className="card-body">
           <p>Conoce la disponibilidad de los laboratorios</p>
@@ -77,10 +77,10 @@ function Hero() {
       <div className="slider">
         <div className="slider-frame">
           <ul>
-            <li><img src="/src/assets/Desfibrilador01.jpg" alt="Carrusel Desfibrilador 1" /></li>
-            <li><img src="/src/assets/Desfibrilador02.jpg" alt="Carrusel Desfibrilador 2" /></li>
-            <li><img src="/src/assets/Desfibrilador0.jpg" alt="Carrusel Desfibrilador 3" /></li>
-            <li><img src="/src/assets/Desfibrilador03.jpg" alt="Carrusel Desfibrilador 4" /></li>
+            <li><img src="assets/Desfibrilador01.jpg" alt="Carrusel Desfibrilador 1" /></li>
+            <li><img src="assets/Desfibrilador02.jpg" alt="Carrusel Desfibrilador 2" /></li>
+            <li><img src="assets/Desfibrilador0.jpg" alt="Carrusel Desfibrilador 3" /></li>
+            <li><img src="assets/Desfibrilador03.jpg" alt="Carrusel Desfibrilador 4" /></li>
           </ul>
         </div>
         <div className="texto-slider">
@@ -105,7 +105,7 @@ function Hero() {
       <div className="modulos-grid">
         <div className="modulo">
           <h2>Desfibrilación Manual</h2>
-          <img src="/src/assets/BENEHEART02.jpg" alt="Desfibrilación Manual" />
+          <img src="assets/BENEHEART02.jpg" alt="Desfibrilación Manual" />
           <button className="ver-masA" onClick={handleModulosClick}>
             <span>Ver más</span>
             <div className="icono-circuloA">
@@ -116,7 +116,7 @@ function Hero() {
 
         <div className="modulo">
           <h2>Monitorización</h2>
-          <img src="/src/assets/BENEHEART03.png" alt="Monitorización" />
+          <img src="assets/BENEHEART03.png" alt="Monitorización" />
           <button className="ver-masA" onClick={handleModulosClick}>
             <span>Ver más</span>
             <div className="icono-circuloA">
@@ -127,7 +127,7 @@ function Hero() {
 
         <div className="modulo">
           <h2>DEA</h2>
-          <img src="/src/assets/BENEHEART04.jpg" alt="DEA" />
+          <img src="assets/BENEHEART04.jpg" alt="DEA" />
           <button className="ver-masA" onClick={handleModulosClick}>
             <span>Ver más</span>
             <div className="icono-circuloA">
@@ -138,7 +138,7 @@ function Hero() {
 
         <div className="modulo">
           <h2>Marcapasos</h2>
-          <img src="/src/assets/BENEHEART01.jpg" alt="Marcapasos" />
+          <img src="assets/BENEHEART01.jpg" alt="Marcapasos" />
           <button className="ver-masA" onClick={handleModulosClick}>
             <span>Ver más</span>
             <div className="icono-circuloA">

@@ -70,7 +70,7 @@ function Modulos() {
       <div className="modulos-container">
         {/* Desfibrilación Manual */}
         <div className="modulo-card">
-          <img src="/src/assets/BENEHEART02.jpg" alt="Desfibrilación Manual" />
+          <img src="assets/BENEHEART02.jpg" alt="Desfibrilación Manual" />
           <div className="modulo-texto">
             <h3>Desfibrilación Manual</h3>
             <p>
@@ -92,7 +92,7 @@ function Modulos() {
 
         {/* Monitorización */}
         <div className="modulo-card">
-          <img src="/src/assets/BENEHEART03.png" alt="Monitorización" />
+          <img src="assets/BENEHEART03.png" alt="Monitorización" />
           <div className="modulo-texto">
             <h3>Monitorización</h3>
             <p>
@@ -109,7 +109,7 @@ function Modulos() {
 
         {/* DEA */}
         <div className="modulo-card">
-          <img src="/src/assets/BENEHEART04.jpg" alt="DEA" />
+          <img src="assets/BENEHEART04.jpg" alt="DEA" />
           <div className="modulo-texto">
             <h3>DEA</h3>
             <p>
@@ -126,7 +126,7 @@ function Modulos() {
 
         {/* Marcapasos */}
         <div className="modulo-card">
-          <img src="/src/assets/BENEHEART01.jpg" alt="Marcapasos" />
+          <img src="assets/BENEHEART01.jpg" alt="Marcapasos" />
           <div className="modulo-texto">
             <h3>Marcapasos</h3>
             <p>

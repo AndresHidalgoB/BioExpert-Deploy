@@ -108,7 +108,7 @@ function Login() {
           <Link to="/registro">¿No tienes cuenta aún?</Link>
           <h1>o</h1>
           <button type="button">
-            <img src="/src/assets/Google.png" alt="Google" />
+            <img src="assets/Google.png" alt="Google" />
             Iniciar con tu cuenta de Google
           </button>
         </div>

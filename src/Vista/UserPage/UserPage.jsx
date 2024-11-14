@@ -166,7 +166,7 @@ function Perfil() {
             <div className="perfil-content">
                 <div className="perfil-info">
                     <div className="perfil-avatar">
-                        <img src={userData.profileImage || "/src/assets/profile-avatar.png"} alt="Foto de Perfil" />
+                        <img src={userData.profileImage || "assets/profile-avatar.png"} alt="Foto de Perfil" />
                         {isEditing && (
                             <input type="file" accept="image/*" onChange={handleImageChange} />
                         )}
